@@ -631,7 +631,7 @@ DWORD RunUpdatePayloadThreadProc(THREAD_ARGS* pArgs)
                 SetLEDColor(LED_COLOR_GREEN_1 | LED_COLOR_GREEN_2 | LED_COLOR_GREEN_3 | LED_COLOR_GREEN_4);
 
                 // Run our unsigned xex file.
-                XLaunchNewImage(PAYLOAD_DRIVE "\\BadNyan.xex", 0);
+                XLaunchNewImage(PAYLOAD_DRIVE "\\default.xex", 0);
             }
             else
             {
