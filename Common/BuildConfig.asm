@@ -5,6 +5,7 @@
 
 # Determines which game to target for the exploit:
 #.set TONY_HAWK_AW,             1
+#.set COD_MW1,                  1
 
 # Sanity check compiler flags.
 .ifdef RETAIL_BUILD
@@ -33,7 +34,7 @@
 .ifdef RETAIL_BUILD
     .include "KernelConfig_Retail_17559.asm"
 .else
-    .error "No buld config for debug target defined"
+    .include "KernelConfig_Debug.asm"
 .endif
 
 # Make sure the kernel version is specified which indicates the kernel address file was included.
@@ -46,8 +47,8 @@
 # Include game config for specified target.
 .ifdef TONY_HAWK_AW
     .include "TonyHawk.asm"
-#.elseif ?? != 0
-
+.elseif COD_MW1 != 0
+    .include "CoDMW1.asm"
 .endif
 
 # Sanity check the game config.
