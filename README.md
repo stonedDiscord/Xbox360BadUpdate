@@ -3,7 +3,9 @@ Bad Update is a non-persistent software only hypervisor exploit for Xbox 360 tha
 - Tony Hawk's American Wasteland (NTSC)
 - Call of Duty: Modern Warfare (NTSC)
 
-For information on how to use the exploit see the Quick Start section below. For information on how the exploit works or how to compile it from scratch see the relevant sections below.
+For information on how to use the exploit see the Quick Start section below. For information on how the exploit works or how to compile it from scratch see the following wiki pages:
+- [Compiling](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/Compiling)
+- [Exploit Details](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/Exploit-Details)
 
 # Quick Start
 To run the Bad Update exploit you'll need one of the supported games listed above and a USB stick. The following steps give a brief overview of how to run the exploit, for more detailed steps please see the wiki.
@@ -18,14 +20,6 @@ To run the Bad Update exploit you'll need one of the supported games listed abov
 9. Once the exploit triggers successfully the RoL should be fully lit in green. The hypervisor has now been patched to run unsigned executables and your unsigned default.xex file will be run.
 
 The exploit has a 30% success rate and can take up to 20 minutes to trigger successfully. If after 20 minutes the exploit hasn't triggered you'll need to power off your Xbox 360 console and repeat the process from step 5.
-
-# Compiling
-Compiling the exploit is only required if you're an advanced user that wants to experiment with it. For general users there are precompiled versions of all the exploit files in the releases section. Compiling the exploit is a multi-step process and is explained in detail in the wiki.
-
-# Explanation of the Exploit
-Details of how the exploit works can be found in the wiki. For additional information on the Xbox 360 security system or how I found and wrote the exploit please see the following blog posts:
-- [Hacking the Xbox 360 Hypervisor Part 1: System Overview](https://icode4.coffee/?p=1047)
-- [Hacking the Xbox 360 Hypervisor Part 2: The Bad Update Exploit](https://icode4.coffee/?p=1081)
 
 # FAQ
 **Q: What does this provide over the RGH Hack/should I use this instead of RGH?**
