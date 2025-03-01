@@ -3,6 +3,10 @@ Bad Update is a non-persistent software only hypervisor exploit for Xbox 360 tha
 - Tony Hawk's American Wasteland (NTSC)
 - Call of Duty: Modern Warfare (NTSC)
 
+**This exploit is NOT persistent!** This means your console will only be in a hacked state (able to run homebrew/unsigned code) for as long as it's kept on. **Once you reboot or power off your console you'll need to run the exploit again**. The exploit cannot be made persistent.
+
+**Your Xbox 360 console must be on dashboard version 17559 in order to use this exploit**. While the exploit can be ported to any system software version I have only built the exploit for the 17559 dashboard version.
+
 For information on how to use the exploit see the Quick Start section below. For information on how the exploit works or how to compile it from scratch see the following wiki pages:
 - [Compiling](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/Compiling)
 - [Exploit Details](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/Exploit-Details)
