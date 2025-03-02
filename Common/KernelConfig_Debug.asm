@@ -16,7 +16,7 @@
 .set KeFlushCacheRange,                 0x00000000
 .set KeLockL2,                          0x00000000
 .set KeStallExecutionProcessor,         0x00000000
-.set MmFreePhysicalMemory,				0x00000000
+.set MmFreePhysicalMemory,              0x00000000
 .set MmGetPhysicalAddress,              0x00000000
 .set NtAllocateVirtualMemory,           0x00000000
 .set NtClose,                           0x00000000

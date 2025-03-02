@@ -10,7 +10,7 @@
 .set KeFlushCacheRange,                 0x80073850
 .set KeLockL2,                          0x80071E00
 .set KeStallExecutionProcessor,         0x80073484
-.set MmFreePhysicalMemory,				0x800807B8
+.set MmFreePhysicalMemory,              0x800807B8
 .set MmGetPhysicalAddress,              0x80080048
 .set NtAllocateVirtualMemory,           0x80083AA8
 .set NtClose,                           0x80089EB0
