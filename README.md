@@ -12,7 +12,7 @@ For information on how to use the exploit see the Quick Start section below. For
 - [Exploit Details](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/Exploit-Details)
 
 # Quick Start
-To run the Bad Update exploit you'll need one of the supported games listed above and a USB stick. The following steps give a brief overview of how to run the exploit, for more detailed steps please see the wiki.
+To run the Bad Update exploit you'll need one of the supported games listed above and a USB stick. The following steps give a brief overview of how to run the exploit, for more detailed steps please see the [How To Use](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/How-To-Use) wiki page.
 1. Download the Xbox360BadUpdate-Retail-USB.zip file from the releases section and extract the files.
 2. Format a USB stick to FAT32.
 3. Copy the contents of the folder matching the game you want to use for the exploit to the root of the USB stick. Ex: if you're using Tony Hawk's American Wasteland copy the contents of the Tony Hawk's American Wasteland folder to the root of the USB stick. The root of the USB stick should contain the following files/folders: BadUpdatePayload, Content, name.txt.
@@ -20,7 +20,7 @@ To run the Bad Update exploit you'll need one of the supported games listed abov
 5. Insert the USB stick into your Xbox 360 console and power it on.
 6. Sign into the Player 1 profile and run the game you're using to trigger the exploit.
 7. Follow the instructions for the game you chose to load the hacked game save file and begin the exploit process.
-8. The console's ring of light will flash different colors/segments during the exploit process to indicate progress. For information on what the different values mean see the following page.
+8. The console's ring of light will flash different colors/segments during the exploit process to indicate progress. For information on what the different values mean see the [LED Patterns and Meanings](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/How-To-Use#led-patterns-and-meanings) section of the wiki.
 9. Once the exploit triggers successfully the RoL should be fully lit in green. The hypervisor has now been patched to run unsigned executables and your unsigned default.xex file will be run.
 
 The exploit has a 30% success rate and can take up to 20 minutes to trigger successfully. If after 20 minutes the exploit hasn't triggered you'll need to power off your Xbox 360 console and repeat the process from step 5.
