@@ -1,4 +1,5 @@
-# Xbox360BadUpdate
+![banner](https://github.com/user-attachments/assets/e9684c9d-d4db-48a8-9661-53629c20e22e)
+
 Bad Update is a non-persistent software only hypervisor exploit for Xbox 360 that works on the latest (17559) software version. This repository contains the exploit files that can be used on an Xbox 360 console to run unsigned code. This exploit can be triggered using one of the following games:
 - Tony Hawk's American Wasteland (NTSC)
 
