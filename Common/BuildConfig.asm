@@ -5,7 +5,6 @@
 
 # Determines which game to target for the exploit:
 #.set TONY_HAWK_AW,             1
-#.set COD_MW1,                  1
 
 # Sanity check compiler flags.
 .ifdef RETAIL_BUILD
@@ -47,8 +46,6 @@
 # Include game config for specified target.
 .ifdef TONY_HAWK_AW
     .include "TonyHawk.asm"
-.elseif COD_MW1 != 0
-    .include "CoDMW1.asm"
 .endif
 
 # Sanity check the game config.
