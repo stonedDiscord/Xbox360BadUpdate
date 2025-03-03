@@ -1,6 +1,4 @@
-bin/
 Tools/
-.vs/
 
 *.bin
 *.exe
