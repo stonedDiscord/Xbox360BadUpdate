@@ -17,7 +17,7 @@ jobs:
         fileName: 'Tools.zip'
 
     - name: Extract tools
-      run: 7z x Tools.zip Tools
+      run: 7z x Tools.zip -oTools
 
     - name: Build
       run: .\build_exploit.bat
