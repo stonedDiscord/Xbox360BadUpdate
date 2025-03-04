@@ -1,0 +1,19 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Download tools
+      run: wget "https://github.com/grimdoomer/Xbox360BadUpdate/releases/download/v1.0/Tools.zip"
+
+    - name: Extract tools
+      run: 7z x Tools.zip
+
+    - name: Build
+      run: build_exploit.bat
