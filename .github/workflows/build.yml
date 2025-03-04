@@ -10,8 +10,8 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Download tools
-    - uses: robinraju/release-downloader@v1
-        with:
+      uses: robinraju/release-downloader@v1
+      with:
         repository: 'grimdoomer/Xbox360BadUpdate'
         tag: 'v1.0'
         fileName: 'Tools.zip'
