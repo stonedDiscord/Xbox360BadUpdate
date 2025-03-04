@@ -1,7 +1,7 @@
 ![banner](https://github.com/user-attachments/assets/e9684c9d-d4db-48a8-9661-53629c20e22e)
 
 Bad Update is a non-persistent software only hypervisor exploit for Xbox 360 that works on the latest (17559) software version. This repository contains the exploit files that can be used on an Xbox 360 console to run unsigned code. This exploit can be triggered using one of the following games:
-- Tony Hawk's American Wasteland (NTSC)
+- Tony Hawk's American Wasteland (NTSC/PAL/RF see [here](https://github.com/grimdoomer/Xbox360BadUpdate/wiki/Tony-Hawk's-American-Wasteland#compatible-versions) for how to identify your version/region)
 
 **This exploit is NOT persistent!** This means your console will only be in a hacked state (able to run homebrew/unsigned code) for as long as it's kept on. **Once you reboot or power off your console you'll need to run the exploit again**. The exploit cannot be made persistent.
 
@@ -36,7 +36,13 @@ A: This is a software only exploit that doesn't require you open your console or
 A: No, the Xbox 360 boot chain is very secure with no attack surface to try and exploit. There will never exist a software only boot-to-hacked-state exploit akin to a "softmod".
 
 **Q: Does this work on winchester consoles?**  
-A: I haven't personally tested it but I don't believe there's any reason it wouldn't work. Nothing in the exploit is hardware specific.
+A: Yes it has been confirmed to work on winchester consoles.
+
+**Q: Does this work with the Original Xbox version of Tony Hawk's American Wasteland?**  
+A: No, it only works with the Xbox 360 version.
+
+**Q: Can <insert other skateboarding game here> be used with this?**  
+A: No, the save game exploit is specific to Tony Hawk's American Wasteland and has nothing to do with it being a skateboarding game.
 
 **Q: I ran the exploit and nothing happened?**  
 A: The exploit has a 30% success rate. If after running for 20 minutes the exploit hasn't triggered you'll need to reboot your console and try again.
