@@ -45,10 +45,10 @@ A: Yes it has been confirmed to work on winchester consoles.
 **Q: Does this work with the Original Xbox version of Tony Hawk's American Wasteland?**  
 A: No, it only works with the Xbox 360 version.
 
-**Q: Can <insert other skateboarding game here> be used with this?**  
+**Q: Can \<insert other skateboarding game here> be used with this?**  
 A: No, the Tony Hawk save game exploit is specific to Tony Hawk's American Wasteland and has nothing to do with it being a skateboarding game.
 
-**Q: Can <insert other music game here> be used with this?**  
+**Q: Can \<insert other music game here> be used with this?**  
 A: No, the Rock Band save game exploit is specific to Rock Band Blitz and has nothing to do with it being a music game.
 
 **Q: I ran the exploit and nothing happened?**  
